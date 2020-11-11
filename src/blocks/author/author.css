@@ -13,7 +13,9 @@
     display: flex;
     align-items: center;
     border-bottom: 0;
-    background: #fff;
+    /* background: #fff; */
+    background-image: url('../../components/images/desktop-3.jpg');
+    background-size: cover;
     font-weight: 400;
     color: #272341;
     padding: 0 5.6rem;

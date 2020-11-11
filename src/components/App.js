@@ -1,7 +1,8 @@
 import React from 'react';
-import ProfilePic from './images/photo.jpg'
+import ProfilePic from './images/photo_pic.jpg'
 import facebook from './images/facebook_color_white.svg'
 import VK from './images/vk_color_white.svg'
+import github from './images/icon-github.png'
 
 function App() {
     return (
@@ -11,11 +12,15 @@ function App() {
                 <nav className="navbar">
                     <ul className="navbar__nav">
                         <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img class="footer__social-icon" src={facebook}
+                            <a className="navbar__link" href="#" target="_blank"><img class="navbar__social-icon" src={facebook}
                                 alt="Facebook" /></a>
                         </li>
                         <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img class="footer__social-icon" src={VK}
+                            <a className="navbar__link" href="#" target="_blank"><img class="navbar__social-icon" src={VK}
+                                alt="Facebook" /></a>
+                        </li>
+                        <li className="navbar__item">
+                            <a className="navbar__link" href="#" target="_blank"><img class="navbar__social-icon" src={github}
                                 alt="Facebook" /></a>
                         </li>
                     </ul>
@@ -28,7 +33,7 @@ function App() {
                     <span className="author__text-color-main"> Anna Galkina</span>
                     </h1>
                     <p className="author__caption">I'm a Web Developer.</p>
-                    <p className="author__link" data-sr-id="5">
+                    <p className="author__link">
                         <a className="cta-btn cta-btn--hero" href="#about">Know more</a>
                     </p>
                 </div>
