@@ -1,0 +1,31 @@
+@import url(./container/author__container.css);
+@import url(./__caption/author__caption.css);
+@import url(./__title/author__title.css);
+@import url(./__text-color-main/author__text-color-main.css);
+@import url(./__link/author__link.css);
+
+
+
+.author {
+    border-radius: .3rem;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+    background: #fff;
+    font-weight: 400;
+    color: #272341;
+    padding: 0 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+
+}
