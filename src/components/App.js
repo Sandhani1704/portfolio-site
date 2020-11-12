@@ -1,8 +1,8 @@
 import React from 'react';
 import ProfilePic from './images/photo_pic.jpg'
-import facebook from './images/facebook_icon.png'
-import telegram from './images/telegram_icon.png'
-import github from './images/icon-github.png'
+import github from './images/github_logo_icon.png'
+import whatsapp from './images/whatsapp_icon_32.png'
+import facebook from './images/facebook_icon_32.png'
 import ProjectsImage from './images/banner1.png'
 
 function App() {
@@ -13,15 +13,15 @@ function App() {
                 <nav className="navbar">
                     <ul className="navbar__nav">
                         <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={facebook}
-                                alt="Facebook" /></a>
-                        </li>
-                        <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={telegram}
-                                alt="Facebook" /></a>
-                        </li>
-                        <li className="navbar__item">
                             <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={github}
+                                alt="Facebook" /></a>
+                        </li>
+                        <li className="navbar__item">
+                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={whatsapp}
+                                alt="Facebook" /></a>
+                        </li>
+                        <li className="navbar__item">
+                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={facebook}
                                 alt="Facebook" /></a>
                         </li>
                     </ul>
@@ -63,7 +63,7 @@ function App() {
                 </a>
                     </div>
                     <div className="projects__wrapper-image">
-                        <a target="_blank" className="projects__link" href="https://github.com/Sandhani1704/how-to-learn">
+                        <a target="_blank" className="projects__pic-link" href="https://github.com/Sandhani1704/how-to-learn">
                             <img className="projects__image" src={ProjectsImage} alt="баннер проекта" />
                         </a>
                     </div>
@@ -80,7 +80,7 @@ function App() {
                 </a>
                     </div>
                     <div className="projects__wrapper-image">
-                        <a target="_blank" className="projects__link" href="https://github.com/Sandhani1704/how-to-learn">
+                        <a target="_blank" className="projects__pic-link" href="https://github.com/Sandhani1704/how-to-learn">
                             <img className="projects__image" src={ProjectsImage} alt="баннер проекта" />
                         </a>
                     </div>
@@ -97,7 +97,7 @@ function App() {
                 </a>
                     </div>
                     <div className="projects__wrapper-image">
-                        <a target="_blank" className="projects__link" href="https://github.com/Sandhani1704/how-to-learn">
+                        <a target="_blank" className="projects__pic-link" href="https://github.com/Sandhani1704/how-to-learn">
                             <img className="projects__image" src={ProjectsImage} alt="баннер проекта" />
                         </a>
                     </div>
@@ -111,13 +111,13 @@ function App() {
                 <div className="contact__container">
                     <h2 className="contact__title">
                         Wanna Contact
-        </h2>
+                    </h2>
                     {/* <div className="contact__wrapper"> */}
                     <a
                         target="_blank"
                         className="contact__link"
                         href="mailto:angalkina1704@gmail.com"
-                    >Click Me ! angalkina1704@gmail.com</a
+                    >Click Me! angalkina1704@gmail.com</a
                     >
                     {/* </div> */}
                 </div>

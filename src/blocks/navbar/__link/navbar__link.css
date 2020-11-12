@@ -1,6 +1,6 @@
 .navbar__link {
     line-height: 1.6;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     padding: 0;
     opacity: .8;
     font-size: 12px;
@@ -9,6 +9,6 @@
     color: #66615B;
 }
 
-.navbar__link:nth-of-type(3n) {
+/* .navbar__link:nth-of-type(3n) {
     margin-right: 0px;
-}
+} */
