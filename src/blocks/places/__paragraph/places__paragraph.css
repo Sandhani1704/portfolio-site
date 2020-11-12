@@ -1,11 +1,12 @@
 .places__paragraph {
     margin:0;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    text-align: top;
     max-width: 484px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
     max-width: 100%;
     width: 100%;
     }

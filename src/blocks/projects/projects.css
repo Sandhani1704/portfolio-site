@@ -1,0 +1,21 @@
+@import url(./__title/projects__title.css);
+@import url(./__container/projects__container.css);
+@import url(./__description-wrapper/projects__description-wrapper.css);
+@import url(./__image/projects__image.css);
+@import url(./__description-title/projects__description-title.css);
+@import url(./__link/projects__link.css);
+@import url(./__description/projects__description.css);
+
+
+
+
+
+.projects {
+    max-width: 75em;
+    /* padding: 5em 0; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 75em;
+}

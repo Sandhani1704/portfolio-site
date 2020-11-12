@@ -1,5 +1,6 @@
 .author__text-color-main {
     background-image: linear-gradient(135deg,#134e5e,#71b280);
+    /* background-image: linear-gradient(135deg, #7ba49a, white); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;

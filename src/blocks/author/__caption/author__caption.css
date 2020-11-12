@@ -11,4 +11,17 @@
     margin-bottom: 3.2rem;
     text-align: left;
     line-height: 1.2;
+    animation-name: text;
+}
+
+.author__caption,
+.author__caption::after {
+	        animation-delay: 0;
+	        animation-delay: var(--animation-delay, 3s);
+	        animation-iteration-count: 1;
+	        animation-iteration-count: var(--iterations, 1);
+	        animation-duration: 1200ms;
+	        animation-duration: var(--duration, 3000ms);
+	        animation-fill-mode: both;
+	        animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }

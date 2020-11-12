@@ -1,0 +1,16 @@
+.projects__link {
+    color: #87a69f;
+    /* -webkit-text-fill-color: #87a69f; */
+    border: 2px solid transparent;
+    /* border-image: linear-gradient(135deg,#134e5e,#71b280); */
+    border-image: linear-gradient(135deg, #87a69f, white);
+    border-image-slice: 1;
+    display: inline-block;
+    position: relative;
+    padding: .8rem 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    z-index: 1;
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+    text-decoration: none;
+}

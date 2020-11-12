@@ -11,18 +11,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
     /* align-items: end; */
     margin: 0 auto;
-    padding: 0 148px;
-    max-width: 984px;
-    background-color: #134e5e;
-    background-image: linear-gradient(135deg,#134e5e,#71b280);
+    /* padding: 0 148px; */
+    /* max-width: 984px; */
+    max-width: 75em;
+    /* background-color: #134e5e; */
+    background-color: #7ba49a;
+    /* background-image: linear-gradient(135deg,#134e5e,#71b280); */
+    /* background-image: linear-gradient(135deg, #7ba49a, white); */
+    background-image: linear-gradient(135deg, #87a69f, white);
     color: #fff;
     height: 100%;
     border-top: 0;
     -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
     padding-bottom: 10%;
+    transform: translateY(-80px);
     }
     
     @media screen and (max-width: 1024px) {
