@@ -43,17 +43,10 @@ function App() {
                 <h3 className="places__title">About me</h3>
                 <div className="places__place">
 
-                    {/* <div className="places__grid-item">
-                        <p className="places__url-heading">URL</p>
-                        <a className="places__link" href="http://park-kosa.ru">park-kosa.ru</a>
-                    </div> */}
                     <img className="places__image" src={ProfilePic} alt="Фотография профиля" />
                     <div className="places__grid-paragraph">
                         <p className="places__paragraph">I Code and Develop website and web apps. Skilled in HTML5, CSS3, Javascript, React.js, Node.js, Express knowledge. Believe in constant learning that enhances my coding skills more and more!!! </p>
-                        {/* <p className="places__paragraph">На этом Калининградская область не заканчивается. Для путешественника
-                        и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое
-                        наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
-                    спокойствие природы и запах стального, прохладного моря.</p> */}
+
                     </div>
                 </div>
             </section>
@@ -119,20 +112,20 @@ function App() {
                     <h2 className="contact__title">
                         Wanna Contact
         </h2>
-                    <div className="contact__wrapper">
-                        <a
-                            target="_blank"
-                            className="contact__link"
-                            href="mailto:angalkina1704@gmail.com"
-                        >Click Me ! angalkina1704@gmail.com</a
-                        >
-                    </div>
+                    {/* <div className="contact__wrapper"> */}
+                    <a
+                        target="_blank"
+                        className="contact__link"
+                        href="mailto:angalkina1704@gmail.com"
+                    >Click Me ! angalkina1704@gmail.com</a
+                    >
+                    {/* </div> */}
                 </div>
             </section>
 
 
 
-            <footer className="footer navbar-static-bottom">
+            {/* <footer className="footer navbar-static-bottom">
                 <div className="container">
                     <a href="#top" className="back-to-top">
                         <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
@@ -155,7 +148,7 @@ function App() {
                     <hr />
 
                 </div>
-            </footer>
+            </footer> */}
 
         </>
     )

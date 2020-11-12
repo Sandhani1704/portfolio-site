@@ -1,19 +1,14 @@
 .contact__container {
     /* background-image: linear-gradient(135deg,#134e5e,#71b280); */
-    background-image: linear-gradient(10deg, #87a69f, white);
-    -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
-    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
-    padding: 5rem 0 10rem;
-    margin-top: -5rem;
-    margin-bottom: -1px;
-    color: #fff;
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
   /* vertical-align: middle; */
     box-sizing: border-box;
-    vertical-align: center;
     align-items: center;
+
+    
     
 }
