@@ -3,7 +3,8 @@ import ProfilePic from './images/photo_pic.jpg'
 import github from './images/github_logo_icon.png'
 import whatsapp from './images/whatsapp_icon_32.png'
 import facebook from './images/facebook_icon_32.png'
-import ProjectsImage from './images/banner1.png'
+import ProjectsImage from './images/Научиться_учиться_2.png'
+import ProjectsImageRussiaTravel from './images/__logo.png'
 
 function App() {
     return (
@@ -13,15 +14,15 @@ function App() {
                 <nav className="navbar">
                     <ul className="navbar__nav">
                         <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={github}
+                            <a className="navbar__link" href="https://github.com/Sandhani1704" target="_blank"><img className="navbar__social-icon" src={github}
                                 alt="Facebook" /></a>
                         </li>
                         <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={whatsapp}
-                                alt="Facebook" /></a>
+                            <a className="navbar__link" href="https://wa.me/+79037085488" target="_blank"><img className="navbar__social-icon" src={whatsapp}
+                                alt="whatsapp" /></a>
                         </li>
                         <li className="navbar__item">
-                            <a className="navbar__link" href="#" target="_blank"><img className="navbar__social-icon" src={facebook}
+                            <a className="navbar__link" href="https://www.facebook.com/NyushaGalkina" target="_blank"><img className="navbar__social-icon" src={facebook}
                                 alt="Facebook" /></a>
                         </li>
                     </ul>
@@ -45,15 +46,137 @@ function App() {
 
                     <img className="places__image" src={ProfilePic} alt="Фотография профиля" />
                     <div className="places__grid-paragraph">
-                        <p className="places__paragraph">I Code and Develop website and web apps. Skilled in HTML5, CSS3, Javascript, React.js, Node.js, Express knowledge. Believe in constant learning that enhances my coding skills more and more!!! </p>
+                        <p className="places__paragraph">I am novice front-end developer who is
+                        building a new career from the thing I really enjoy. For a year, I have
+                        honed my skills as a web-developer, learning how to build web applications
+                        with HTML, CSS, JavaScript, React, Node, databasing in MongoDB while studying in Yandex.Practicum.
+                        I've loved building things for web and been working with JavaScript (ES6+), HTML & CSS,
+                        React, Node.js and MongoDB recently.
+ </p>
 
                     </div>
                 </div>
             </section>
 
             <section className="projects">
-                <h2 className="projects__title">Projects</h2>
-                <div className="projects__container">
+                {/* <h2 className="projects__title">Projects</h2> */}
+                {/* <div className="projects__container">
+                    <div className="projects__description-wrapper">
+                        <h2 className="projects__description-title">How to learn</h2>
+                        <p className="projects__description">My first stand-alone project was a one-page 
+                        site dedicated to teaching methods and useful learning resources.</p>
+                        <a target="_blank" className="projects__link" href="https://github.com/Sandhani1704/how-to-learn">
+                            See Live
+                </a>
+                    </div>
+                    <div className="projects__wrapper-image">
+                        <a target="_blank" className="projects__pic-link" href="https://github.com/Sandhani1704/how-to-learn">
+                            <img className="projects__image" src={ProjectsImage} alt="баннер проекта" />
+                        </a>
+                    </div>
+
+                </div> */}
+
+                <div className="project">
+
+                    <h4 className="project__title">How to learn</h4>
+
+                    <div className="project-list__conteiner">
+                        <p className="project__description">My first stand-alone project was a one-page
+                        site dedicated to teaching methods and useful learning resources</p>
+                        <div className="project__link-conteiner">
+                            <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="projects__link">Github</a>
+                            <a target="_blank" className="projects__link" href="https://sandhani1704.github.io/how-to-learn/">
+                                See Live
+                </a>
+                        </div>
+                    </div>
+                    {/* <p className="mt-4"><span className="font-weight-bold">Contribution </span>
+            <br /><code className="text-success">Owner</code></p> */}
+                </div>
+                <div className="project">
+
+                    <h4 className="project__title">How to learn</h4>
+
+                    <div className="project-list__conteiner">
+                        <p className="project__description">My first stand-alone project was a one-page
+                        site dedicated to teaching methods and useful learning resources</p>
+                        <div className="project__link-conteiner">
+                            <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="projects__link">Github</a>
+                            <a target="_blank" className="projects__link" href="https://sandhani1704.github.io/how-to-learn/">
+                                See Live
+                </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="project">
+
+                    <h4 className="project__title">How to learn</h4>
+
+                    <div className="project-list__conteiner">
+                        <p className="project__description">My first stand-alone project was a one-page
+                        site dedicated to teaching methods and useful learning resources</p>
+                        <div className="project__link-conteiner">
+                            <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="projects__link">Github</a>
+                            <a target="_blank" className="projects__link" href="https://sandhani1704.github.io/how-to-learn/">
+                                See Live
+                </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project">
+
+                    <h4 className="project__title">How to learn</h4>
+
+                    <div className="project-list__conteiner">
+                        <p className="project__description">My first stand-alone project was a one-page
+                        site dedicated to teaching methods and useful learning resources</p>
+                        <div className="project__link-conteiner">
+                            <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="projects__link">Github</a>
+                            <a target="_blank" className="projects__link" href="https://sandhani1704.github.io/how-to-learn/">
+                                See Live
+                </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="project">
+
+                    <h4 className="project__title">How to learn</h4>
+
+                    <div className="project-list__conteiner">
+                        <p className="project__description">My first stand-alone project was a one-page
+                        site dedicated to teaching methods and useful learning resources</p>
+                        <div className="project__link-conteiner">
+                            <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="projects__link">Github</a>
+                            <a target="_blank" className="projects__link" href="https://sandhani1704.github.io/how-to-learn/">
+                                See Live
+                </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="project">
+
+                    <h4 className="project__title">How to learn</h4>
+
+                    <div className="project-list__conteiner">
+                        <p className="project__description">My first stand-alone project was a one-page
+                        site dedicated to teaching methods and useful learning resources</p>
+                        <div className="project__link-conteiner">
+                            <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="projects__link">Github</a>
+                            <a target="_blank" className="projects__link" href="https://sandhani1704.github.io/how-to-learn/">
+                                See Live
+                </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                {/* <div className="projects__container">
                     <div className="projects__description-wrapper">
                         <h2 className="projects__description-title">How to learn</h2>
                         <p className="projects__description">A Robofriends website having robots fetched
@@ -64,7 +187,7 @@ function App() {
                     </div>
                     <div className="projects__wrapper-image">
                         <a target="_blank" className="projects__pic-link" href="https://github.com/Sandhani1704/how-to-learn">
-                            <img className="projects__image" src={ProjectsImage} alt="баннер проекта" />
+                            <img className="projects__image" src={ProjectsImageRussiaTravel} alt="баннер проекта" />
                         </a>
                     </div>
 
@@ -85,24 +208,7 @@ function App() {
                         </a>
                     </div>
 
-                </div>
-
-                <div className="projects__container">
-                    <div className="projects__description-wrapper">
-                        <h2 className="projects__description-title">How to learn</h2>
-                        <p className="projects__description">A Robofriends website having robots fetched
-                    from API along with search option using react.js</p>
-                        <a target="_blank" className="projects__link" href="https://github.com/Sandhani1704/how-to-learn">
-                            See Live
-                </a>
-                    </div>
-                    <div className="projects__wrapper-image">
-                        <a target="_blank" className="projects__pic-link" href="https://github.com/Sandhani1704/how-to-learn">
-                            <img className="projects__image" src={ProjectsImage} alt="баннер проекта" />
-                        </a>
-                    </div>
-
-                </div>
+                </div> */}
 
             </section>
 
@@ -110,7 +216,7 @@ function App() {
             <section className="contact">
                 <div className="contact__container">
                     <h2 className="contact__title">
-                        Wanna Contact
+                        Contact Me
                     </h2>
                     {/* <div className="contact__wrapper"> */}
                     <a

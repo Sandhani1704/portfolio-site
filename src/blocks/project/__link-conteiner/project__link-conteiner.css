@@ -1,0 +1,6 @@
+.project__link-conteiner {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
