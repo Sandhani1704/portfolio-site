@@ -16,7 +16,7 @@
     transition: all .6s cubic-bezier(.19,1,.22,1);
     text-decoration: none;
     /* box-sizing: border-box; */
-    width: 110px;
+    /* width: 110px; */
     height: 25px;
     text-align: center;
     

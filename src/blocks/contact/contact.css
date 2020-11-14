@@ -18,7 +18,8 @@
     -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
     clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
     padding: 5rem 0 5rem;
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
+    margin-top: 50px;
     margin-bottom: -1px;
     color: #fff;
     box-sizing: border-box;
