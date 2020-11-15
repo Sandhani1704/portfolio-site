@@ -13,3 +13,21 @@
     font-size: 2.4rem;
     
 }
+
+@media screen and (max-width: 900px) {
+    .contact__link {
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .contact__link {
+    font-size: 1.8rem;
+}
+}
+
+@media screen and (max-width: 400px) {
+    .contact__link {
+    font-size: 1.5rem;
+}
+}

@@ -5,7 +5,7 @@ import whatsapp from './images/whatsapp_icon_32.png'
 import facebook from './images/facebook_icon_32.png'
 import ProjectsImage from './images/Научиться_учиться_2.png'
 import ProjectsImageRussiaTravel from './images/__logo.png'
-
+import UpIcon from './images/up-icon.png'
 function App() {
     return (
         <>
@@ -14,33 +14,33 @@ function App() {
                 <nav className="navbar">
                     <ul className="navbar__nav">
                         <li className="navbar__item">
-                            <a className="navbar__link" href="https://github.com/Sandhani1704" target="_blank"><img className="navbar__social-icon" src={github}
+                            <a className="navbar__link" href="https://github.com/Sandhani1704" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={github}
                                 alt="Facebook" /></a>
                         </li>
                         <li className="navbar__item">
-                            <a className="navbar__link" href="https://wa.me/+79037085488" target="_blank"><img className="navbar__social-icon" src={whatsapp}
+                            <a className="navbar__link" href="https://wa.me/+79037085488" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={whatsapp}
                                 alt="whatsapp" /></a>
                         </li>
                         <li className="navbar__item">
-                            <a className="navbar__link" href="https://www.facebook.com/NyushaGalkina" target="_blank"><img className="navbar__social-icon" src={facebook}
+                            <a className="navbar__link" href="https://www.facebook.com/NyushaGalkina" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={facebook}
                                 alt="Facebook" /></a>
                         </li>
                     </ul>
                 </nav>
             </header>
-            <div className="author">
+            <div id="top" className="author">
                 <div className="author__container">
-                    <h1 className="author__title" data-sr-id="4"
-                    >Hi Everyone! My name is
+                    <div className="author__content">
+                        <h1 className="author__title"
+                        >Hi Everyone! My name is
                     <span className="author__text-color-main"> Anna Galkina</span>
-                    </h1>
-                    <p className="author__caption">I'm a Web Developer.</p>
-                    <p className="author__link">
-                        <a className="cta-btn cta-btn--hero" href="#about">Know more</a>
-                    </p>
+                        </h1>
+                        <p className="author__caption">I'm a Web Developer.</p>
+                        <a href="#places" rel="noopener noreferrer" className="author__link projects__link_author">Know more</a>
+                    </div>
                 </div>
             </div>
-            <section className="places">
+            <section id="places" className="places">
                 <h3 className="places__title">About me</h3>
                 <div className="places__place">
 
@@ -229,30 +229,25 @@ function App() {
 
 
 
-            {/* <footer className="footer navbar-static-bottom">
-                <div className="container">
-                    <a href="#top" className="back-to-top">
-                        <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <div className="social-links">
-                        <a href="https://twitter.com/ritikasonii" target="_blank">
-                            <i className="fa fa-twitter fa-inverse"></i>
-                        </a>
-                        <a href="https://codepen.io/ritika_soni" target="_blank">
-                            <i className="fa fa-codepen fa-inverse"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/ritika-sonii/" target="_blank">
-                            <i className="fa fa-linkedin fa-inverse"></i>
-                        </a>
-                        <a href="https://github.com/Ritika-soni" target="_blank">
-                            <i className="fa fa-github fa-inverse"></i>
-                        </a>
-                    </div>
-
-                    <hr />
-
-                </div>
-            </footer> */}
+            <footer className="footer">
+            <a href="#top" className="back-to-top"><img className="back-to-top-icon" src={UpIcon} /></a>
+            <nav className="navbar_footer">
+                    <ul className="navbar__nav">
+                        <li className="navbar__item navbar__item_footer">
+                            <a className="navbar__link" href="https://github.com/Sandhani1704" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={github}
+                                alt="Facebook" /></a>
+                        </li>
+                        <li className="navbar__item navbar__item_footer">
+                            <a className="navbar__link" href="https://wa.me/+79037085488" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={whatsapp}
+                                alt="whatsapp" /></a>
+                        </li>
+                        <li className="navbar__item navbar__item_footer">
+                            <a className="navbar__link" href="https://www.facebook.com/NyushaGalkina" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={facebook}
+                                alt="Facebook" /></a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
 
         </>
     )

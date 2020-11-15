@@ -12,6 +12,7 @@
     text-align: left;
     line-height: 1.2;
     animation-name: text;
+    /* margin: auto 20%; */
 }
 
 .author__caption,
@@ -24,4 +25,25 @@
 	        animation-duration: var(--duration, 3000ms);
 	        animation-fill-mode: both;
 	        animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    .author__caption {
+		font-size: 30px;
+		line-height: 0.9;
+      }
+}
+
+@media screen and (max-width: 900px) {
+    .author__caption {
+		font-size: 20px;
+		line-height: 0.9;
+      }
+}
+
+@media screen and (max-width: 400px) {
+    .author__caption {
+		font-size: 15px;
+		line-height: 0.9;
+      }
 }
