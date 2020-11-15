@@ -48,3 +48,52 @@
         height: 80vh;
       }
 } */
+
+@media screen and (max-width: 1200px) {
+  .author {
+      background-size: contain;
+      height: 90vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  .author {
+      
+      height: 80vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  .author {
+      height: 70vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .author {
+      
+      height: 65vh;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+  .author {
+      
+      height: 60vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .author__container {
+      
+      height: 50vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .author__container {
+      
+      height: 40vh;
+    }
+}
