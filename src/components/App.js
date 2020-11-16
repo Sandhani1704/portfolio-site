@@ -3,8 +3,8 @@ import ProfilePic from './images/photo_pic.jpg'
 import github from './images/github_logo_icon.png'
 import whatsapp from './images/whatsapp_icon_32.png'
 import facebook from './images/facebook_icon_32.png'
-import ProjectsImage from './images/Научиться_учиться_2.png'
-import ProjectsImageRussiaTravel from './images/__logo.png'
+// import ProjectsImage from './images/Научиться_учиться_2.png'
+// import ProjectsImageRussiaTravel from './images/__logo.png'
 import UpIcon from './images/up-icon.png'
 function App() {
     return (
@@ -36,25 +36,22 @@ function App() {
                     <span className="author__text-color-main"> Anna Galkina</span>
                         </h1>
                         <p className="author__caption">I'm a Web Developer.</p>
-                        <a href="#places" rel="noopener noreferrer" className="author__link projects__link_author">Know more</a>
+                        <a href="#about" rel="noopener noreferrer" className="author__link projects__link_author">Know more</a>
                     </div>
                 </div>
             </div>
-            <section id="places" className="places">
-                <h3 className="places__title">About me</h3>
-                <div className="places__place">
 
-                    <img className="places__image" src={ProfilePic} alt="Фотография профиля" />
-                    <div className="places__grid-paragraph">
-                        <p className="places__paragraph">I am novice front-end developer who is
-                        building a new career from the thing I really enjoy. For a year, I have
-                        honed my skills as a web-developer, learning how to build web applications
-                        with HTML, CSS, JavaScript, React, Node, databasing in MongoDB while studying in Yandex.Practicum.
-                        I've loved building things for web and been working with JavaScript (ES6+), HTML & CSS,
-                        React, Node.js and MongoDB recently.
- </p>
-
-                    </div>
+            <section id="about" className="about">
+                <h3 className="about__title">About me</h3>
+                <div className="about__conteiner">
+                    <img className="about__image" src={ProfilePic} alt="Фотография профиля" />
+                    <p className="about__paragraph">I am novice front-end developer who is
+                    building a new career from the thing I really enjoy. For a year, I have
+                    honed my skills as a web-developer, learning how to build web applications
+                    with HTML, CSS, JavaScript, React, Node, databasing in MongoDB while studying in Yandex.Practicum.
+                    I've loved building things for web and been working with JavaScript (ES6+), HTML & CSS,
+                    React, Node.js and MongoDB recently.
+                    </p>
                 </div>
             </section>
 
@@ -230,8 +227,8 @@ function App() {
 
 
             <footer className="footer">
-            <a href="#top" className="back-to-top"><img className="back-to-top-icon" src={UpIcon} /></a>
-            <nav className="navbar_footer">
+                <a href="#top" className="back-to-top"><img className="back-to-top-icon" src={UpIcon} /></a>
+                <nav className="navbar_footer">
                     <ul className="navbar__nav">
                         <li className="navbar__item navbar__item_footer">
                             <a className="navbar__link" href="https://github.com/Sandhani1704" target="_blank" rel="noopener noreferrer"><img className="navbar__social-icon" src={github}
