@@ -1,0 +1,8 @@
+.footer__back-to-top {
+    display: flex;
+}
+
+.footer__back-to-top-icon {
+    margin: auto;
+    max-width: 35px;
+}
