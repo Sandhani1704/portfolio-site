@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    /* max-width: 984px; */
+    max-width: 85em;
+    margin: 0 auto 10px;
+    padding-top: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 970px) {
+    .header {
+    max-width: 582px;
+}
+}
+ 
+@media screen and (max-width: 320px) {
+.header {
+max-width: 320px;
+padding-top: 28px;
+}
+} 
+
+@media screen and (max-width: 300px) {
+.header {
+max-width: 300px;
+}
+}
+
+.header__title {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}

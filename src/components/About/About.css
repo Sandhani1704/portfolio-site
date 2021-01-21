@@ -1,0 +1,229 @@
+.about {
+	display: grid;
+	flex-direction: column;
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 75em;
+	background-image: linear-gradient(-95deg, #87a69f, #afc2bd);
+	color: #fff;
+	border-top: 0;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	padding-top: 40px;
+	transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1100px) {
+	.about {
+		-webkit-clip-path: none;
+		clip-path: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		padding: 16px 24px;
+		max-width: 720px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.about {
+		padding: 0;
+	}
+}
+
+.about__title {
+	margin: 50px 0;
+	font-size: 3rem;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.about__title {
+		max-width: 720px;
+		font-size: 42px;
+		line-height: 46px;
+		margin-top: 72px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.about__title {
+		max-width: 288px;
+		font-size: 32px;
+		line-height: 35px;
+		margin: 64px 16px 32px;
+	}
+}
+
+.about__conteiner {
+	display: grid;
+	/* grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); */
+	/* grid-template-columns: 460px 1fr; */
+	grid-column-gap: 50px;
+	margin-bottom: 80px;
+	max-width: 984px;
+	grid-template-columns: 1fr 1fr;
+	/* grid-template-rows: 460px 1fr; */
+}
+
+@media screen and (max-width: 1024px) {
+	.about__conteiner {
+		max-width: 928px;
+		/* grid-template-columns: 440px 1fr; */
+	}
+}
+
+@media screen and (max-width: 966px) {
+	.about__conteiner {
+		max-width: 928px;
+		grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about__conteiner {
+		max-width: 720px;
+		grid-template-columns: 340px 1fr;
+		grid-column-gap: 28px;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.about__conteiner {
+		margin: 0 auto;
+		margin-bottom: 0;
+		max-width: 650px;
+		grid-template-columns: 1fr;
+		grid-column-gap: 0;
+		grid-row-gap: 32px;
+		/* flex-direction: column; */
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.about__conteiner {
+		max-width: 320px;
+		grid-row-gap: 0px;
+	}
+}
+
+.about__image {
+	/* grid-row: 2;
+                grid-column: 1; */
+	width: 400px;
+	/* max-width: 45%; */
+	max-height: 400px;
+	/* max-width: 100%;   */
+	/* width: 100%; */
+	margin: 0;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 700px) {
+	.about__image {
+		width: 650px;
+		max-width: 650px;
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 32px;
+		object-position: center;
+	}
+}
+
+.about__paragraph {
+	margin: 0;
+	/* margin-bottom: 24px; */
+	text-align: top;
+	/* max-width: 484px; */
+	font-style: normal;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 38px;
+	width: 550px;
+	max-width: 550px;
+	max-width: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width: 1070px) {
+	.about__paragraph {
+		font-size: 20px;
+		line-height: 35px;
+		width: 450px;
+		max-width: 450px;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+
+/* @media screen and (max-width: 968px) {
+                      .places__paragraph {
+                        width: 350px;
+                        max-width: 350px;
+                    }
+                    } */
+
+
+/* @media screen and (max-width: 850px) {
+                      .places__paragraph {
+                        width: 300px;
+                        max-width: 300px;
+                    }
+                    }
+                     */
+
+@media screen and (max-width: 768px) {
+	.about__paragraph {
+		font-size: 16px;
+		line-height: 26px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.about__paragraph {
+		margin: 0 auto;
+		/* max-width: 650px;
+                        width: 650px; */
+		font-size: 15px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 686px) {
+	.about__paragraph {
+		/* max-width: 450px;
+                        width: 450px; */
+		font-size: 15px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.about__paragraph {
+		/* max-width: 350px;
+                        width: 350px; */
+		max-width: 100%;
+		width: 100%;
+		font-size: 15px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.about__paragraph {
+		max-width: 288px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+}
+
+.about__paragraph:last-of-type {
+	margin-bottom: 0;
+}
