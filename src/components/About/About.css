@@ -10,7 +10,6 @@
 	border-top: 0;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-	/* padding-top: 40px; */
 	padding: 0;
 	transform: translateY(-80px);
 }
@@ -46,19 +45,15 @@
 
 @media screen and (max-width: 768px) {
 	.about__title {
-		max-width: 720px;
 		font-size: 42px;
 		line-height: 46px;
-		/* margin-top: 72px; */
 	}
 }
 
 @media screen and (max-width: 425px) {
 	.about__title {
-		max-width: 288px;
 		font-size: 32px;
 		line-height: 35px;
-		margin: 64px 16px 32px;
 	}
 }
 
@@ -72,6 +67,7 @@
 	max-width: 984px;
 	grid-template-columns: 1fr 1fr;
 	/* grid-template-rows: 460px 1fr; */
+	padding-bottom: 40px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -160,60 +156,6 @@
 	}
 }
 
-
-/* @media screen and (max-width: 968px) {
-                      .places__paragraph {
-                        width: 350px;
-                        max-width: 350px;
-                    }
-                    } */
-
-
-/* @media screen and (max-width: 850px) {
-                      .places__paragraph {
-                        width: 300px;
-                        max-width: 300px;
-                    }
-                    }
-                     */
-
-@media screen and (max-width: 768px) {
-	.about__paragraph {
-		font-size: 16px;
-		line-height: 26px;
-	}
-}
-
-@media screen and (max-width: 700px) {
-	.about__paragraph {
-		margin: 0 auto;
-		/* max-width: 650px;
-                        width: 650px; */
-		font-size: 15px;
-		line-height: 30px;
-	}
-}
-
-@media screen and (max-width: 686px) {
-	.about__paragraph {
-		/* max-width: 450px;
-                        width: 450px; */
-		font-size: 15px;
-		line-height: 30px;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.about__paragraph {
-		/* max-width: 350px;
-                        width: 350px; */
-		max-width: 100%;
-		width: 100%;
-		font-size: 15px;
-		line-height: 30px;
-	}
-}
-
 @media screen and (max-width: 320px) {
 	.about__paragraph {
 		max-width: 288px;
@@ -222,6 +164,6 @@
 	}
 }
 
-.about__paragraph:last-of-type {
+/* .about__paragraph:last-of-type {
 	margin-bottom: 0;
-}
+} */

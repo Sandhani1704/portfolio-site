@@ -50,6 +50,13 @@ margin-right: 0px;
     transition: all 0.3s ease 0s; 
 }
 
+@media screen and (max-width: 500px) {
+    .navbar__social-icon {
+    max-width: 25px;
+    max-height: 25px;
+    }
+    }
+
 .navbar__social-icon:hover {
     opacity: .8;
     transform: scale(1.03); 
