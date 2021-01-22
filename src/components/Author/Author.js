@@ -1,5 +1,6 @@
 import React from 'react';
 import './Author.css';
+import '../Animation/Animation.css';
 
 function Author() {
     return (

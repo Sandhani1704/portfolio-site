@@ -1,3 +1,15 @@
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: grey;
+    height: auto;
+    max-width: 75em;
+}
+
 .footer__back-to-top {
     display: flex;
 }
@@ -5,4 +17,10 @@
 .footer__back-to-top-icon {
     margin: auto;
     max-width: 35px;
+    transition: all 0.3s ease 0s; 
+}
+
+.footer__back-to-top-icon:hover {
+    opacity: .8;
+    transform: scale(1.03); 
 }
