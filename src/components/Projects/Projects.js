@@ -3,7 +3,7 @@ import './Projects.css';
 import Project from '../Project/Project';
 
 
-function Projects() {
+function Projects({ onCardClick, cards }) {
     return (
 
         <section className="projects">
@@ -11,7 +11,12 @@ function Projects() {
             <h2 className="projects__title">Projects</h2>
             <div className="projects__conteiner">
 
-                <Project />
+                {cards.map((card) => (
+                    <Project key={card._id}
+                        onCardClick={onCardClick}
+                        card={card}
+                    />
+                ))}
 
             </div>
         </section>

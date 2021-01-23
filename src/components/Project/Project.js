@@ -1,19 +1,27 @@
 import React from 'react';
 import './Project.css';
+// import cardImg from '../../images/mesto-react.png';
+// import cardImg2 from '../../images/news_1.png';
 
 
-function Project() {
+function Project({ onCardClick, card }) {
+    function handleClick() {
+        onCardClick(card)
+    }
+
     return (
+
+
 
         <>
 
             <div className="project">
 
-                <h4 className="project__title">How to learn</h4>
+                <h4 className="project__title">{card.name}</h4>
 
                 <div className="project-list__conteiner">
-                    <p className="project__description">My first stand-alone project was a one-page
-                        site dedicated to teaching methods and useful learning resources</p>
+                    <img src={card.image} alt='' onClick={handleClick} className="project__image" />
+                    <p className="project__description">{card.description}</p>
                     <div className="project__link-conteiner">
                         <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="project__link">Github</a>
                         <a target="_blank" className="project__link" href="https://sandhani1704.github.io/how-to-learn/">
@@ -23,11 +31,12 @@ function Project() {
                 </div>
             </div>
 
-            <div className="project">
+            {/* <div className="project">
 
                 <h4 className="project__title">Travel to Russia</h4>
 
                 <div className="project-list__conteiner">
+                    <img src={cardImg2} alt='' onClick={handleClick} className="project__image" />
                     <p className="project__description">Website about traveling in Russia. Made layout on the Figmas's mokup, used BEM, responsive design</p>
                     <div className="project__link-conteiner">
                         <a href="https://github.com/Sandhani1704/russian-travel" target="_blank" rel="noopener noreferrer" className="project__link">Github</a>
@@ -91,6 +100,7 @@ function Project() {
                 <h4 className="project__title">Mesto-auth</h4>
 
                 <div className="project-list__conteiner">
+
                     <p className="project__description">Project on react with registration, authorization and routes. Added the ability to register and authorize a user.</p>
                     <div className="project__link-conteiner">
                         <a href="https://github.com/Sandhani1704/react-mesto-auth" target="_blank" rel="noopener noreferrer" className="project__link">Github</a>
@@ -99,7 +109,7 @@ function Project() {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </>
     )
