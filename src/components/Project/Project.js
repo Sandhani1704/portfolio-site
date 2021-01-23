@@ -17,17 +17,17 @@ function Project({ onCardClick, card }) {
 
             <div className="project">
 
-                <h4 className="project__title">{card.name}</h4>
+                {/* <h4 className="project__title">{card.name}</h4> */}
 
                 <div className="project-list__conteiner">
                     <img src={card.image} alt='' onClick={handleClick} className="project__image" />
-                    <p className="project__description">{card.description}</p>
+                    {/* <p className="project__description">{card.description}</p>
                     <div className="project__link-conteiner">
                         <a href="https://github.com/Sandhani1704/how-to-learn" target="_blank" rel="noopener noreferrer" className="project__link">Github</a>
                         <a target="_blank" className="project__link" href="https://sandhani1704.github.io/how-to-learn/">
                             See Live
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
