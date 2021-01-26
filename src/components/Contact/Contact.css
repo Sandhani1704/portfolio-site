@@ -28,9 +28,9 @@ padding: 100px;
 
 .contact__container {
     display: flex;
-     flex-direction: column;
-     box-sizing: border-box;
-    margin: auto;
+    flex-direction: column;
+     /* box-sizing: border-box; */
+    margin: 0 auto;
  }
 
 
@@ -62,7 +62,7 @@ padding: 100px;
 	line-height: 1;
 	font-family: 'Montserrat', Arial, sans-serif;
     font-weight: bold;
-    position: relative;
+    /* position: relative; */
     margin: 0 auto;
     padding: .8rem 1.6rem;
     font-weight: 700;
@@ -71,7 +71,7 @@ padding: 100px;
     color: #fff;
     /* border: 2px solid #fff; */
     text-decoration: none;
-        
+       
 }
 
 .contact__link:hover {
@@ -101,11 +101,12 @@ padding: 100px;
 @media screen and (max-width: 560px) {
     .contact__link {
     font-size: 1.0rem;
+    padding: .5rem 1rem;
 }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .contact__link {
     font-size: 0.4rem;
 }
-}
+} */
