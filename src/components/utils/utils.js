@@ -53,6 +53,6 @@ export const initialCards = [
         description: 'This is a simple react weather app using OpenWeatherMap API',
         stack: 'HTML, CSS, JS, React',
         githubLink: 'https://github.com/Sandhani1704/weather-app',
-        link: '#'
+        link: 'https://sandhani1704.github.io/weather-app/'
     }
 ];
