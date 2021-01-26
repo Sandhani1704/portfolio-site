@@ -11,6 +11,7 @@ margin-top: 50px;
 color: #fff;
 box-sizing: border-box;
 padding: 100px;
+text-align: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -22,17 +23,15 @@ padding: 100px;
 
 @media screen and (max-width: 600px) {
 .contact {
-    padding: 80px;
+    padding: 40px;
 }
 }
 
-.contact__container {
-    display: flex;
-    flex-direction: column;
-     /* box-sizing: border-box; */
-    margin: 0 auto;
- }
-
+@media screen and (max-width: 320px) {
+    .contact {
+        padding: 20px;
+    }
+    }
 
  .contact__title {
     font-size: 3rem;
@@ -62,16 +61,13 @@ padding: 100px;
 	line-height: 1;
 	font-family: 'Montserrat', Arial, sans-serif;
     font-weight: bold;
-    /* position: relative; */
     margin: 0 auto;
     padding: .8rem 1.6rem;
     font-weight: 700;
     z-index: 1;
     transition: all .6s cubic-bezier(.19,1,.22,1);
     color: #fff;
-    /* border: 2px solid #fff; */
     text-decoration: none;
-       
 }
 
 .contact__link:hover {
