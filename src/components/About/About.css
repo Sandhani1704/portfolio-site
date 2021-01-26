@@ -40,7 +40,8 @@
 	margin: 50px 0;
 	font-size: 3rem;
 	line-height: 1.2;
-	font-weight: 700;
+	font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -117,7 +118,7 @@
 .about__image {
 	max-width: 400px;
 	max-height: 400px;
-	margin: auto;
+	margin: 0 auto;
 	object-fit: contain;
 }
 
@@ -133,13 +134,12 @@
 }
 
 .about__paragraph {
-	margin: 0;
-	/* margin-bottom: 24px; */
-	text-align: top;
-	/* max-width: 484px; */
-	font-style: normal;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 500;
-	font-size: 23px;
+	font-style: normal;
+	margin: 0;
+	text-align: top;
+	font-size: 18px;
 	line-height: 38px;
 	width: 550px;
 	max-width: 550px;
@@ -149,7 +149,6 @@
 
 @media screen and (max-width: 1070px) {
 	.about__paragraph {
-		font-size: 20px;
 		line-height: 35px;
 		width: 450px;
 		max-width: 450px;

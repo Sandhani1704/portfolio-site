@@ -18,6 +18,7 @@ function ImagePopup({ isOpen, onClose, card }) {
                     <img src={card.image} alt='' className="popup-image__image" />
                     <div className="popup-image__content">
                         <p className="popup-image__description">{card.description}</p>
+                        <p className="popup-image__stack">Stack: {card.stack}</p>
                         <div className="popup-image__link-conteiner">
                             <a href={card.githubLink} target="_blank" rel="noopener noreferrer" className="popup-image__link">Github</a>
                             <a target="_blank" className="popup-image__link" href={card.link}>

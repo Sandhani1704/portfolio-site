@@ -35,10 +35,12 @@ padding: 100px;
 
 
  .contact__title {
+    font-size: 3rem;
+	line-height: 1.2;
+	font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-size: 3rem;
-    font-weight: 700;
     text-transform: uppercase;
     vertical-align: middle;
 }
@@ -56,19 +58,20 @@ padding: 100px;
 }
 
 .contact__link {
-    /* display: inline-block; */
+    font-size: 2.4rem;
+	line-height: 1;
+	font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
     position: relative;
     margin: 0 auto;
     padding: .8rem 1.6rem;
     font-weight: 700;
-    line-height: 1;
     z-index: 1;
     transition: all .6s cubic-bezier(.19,1,.22,1);
     color: #fff;
     /* border: 2px solid #fff; */
     text-decoration: none;
-    font-size: 2.4rem;
-    
+        
 }
 
 .contact__link:hover {
