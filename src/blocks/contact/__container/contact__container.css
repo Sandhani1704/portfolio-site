@@ -1,8 +1,0 @@
-.contact__container {
-   display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    /* margin-top: auto;
-    margin-bottom: auto; */
-    margin: auto;
-}

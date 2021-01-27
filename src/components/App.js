@@ -70,7 +70,6 @@ function App() {
                 card={selectedCard}
                 isOpen={isImagePopupOpen}
                 onClose={closeImagePopup}
-
             />
 
 

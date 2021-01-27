@@ -1,7 +1,0 @@
-.project__link-conteiner {
-    display: grid;
-    /* justify-content: space-between; */
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px
-}
-

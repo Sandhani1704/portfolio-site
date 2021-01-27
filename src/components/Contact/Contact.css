@@ -1,108 +1,101 @@
 .contact {
-display: flex;
-flex-direction: column;
-margin: 0 auto;
-max-width: 75em;
-background-image: linear-gradient(135deg, #68a59c, #afc2bd);
--webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
-padding-bottom: 0;
-margin-top: 50px;
-color: #fff;
-box-sizing: border-box;
-padding: 100px;
-text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 75em;
+	background-image: linear-gradient(135deg, #68a59c, #afc2bd);
+	-webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+	padding-bottom: 0;
+	margin-top: 50px;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 100px;
+	text-align: center;
 }
 
 @media screen and (max-width: 700px) {
-    .contact {
-      -webkit-clip-path: none;
-      clip-path: none;
-    }
-    }
+	.contact {
+		-webkit-clip-path: none;
+		clip-path: none;
+	}
+}
 
 @media screen and (max-width: 600px) {
-.contact {
-    padding: 40px;
-}
+	.contact {
+		padding: 40px;
+	}
 }
 
 @media screen and (max-width: 320px) {
-    .contact {
-        padding: 20px;
-    }
-    }
+	.contact {
+		padding: 20px;
+	}
+}
 
- .contact__title {
-    font-size: 3rem;
+.contact__title {
+	font-size: 3rem;
 	line-height: 1.2;
 	font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: bold;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    vertical-align: middle;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	vertical-align: middle;
 }
 
 @media screen and (max-width: 900px) {
-    .contact__title {
-    font-size: 1.8rem;
-}
+	.contact__title {
+		font-size: 1.8rem;
+	}
 }
 
 @media screen and (max-width: 500px) {
-    .contact__title {
-    font-size: 1.4rem;
-}
+	.contact__title {
+		font-size: 1.4rem;
+	}
 }
 
 .contact__link {
-    font-size: 2.4rem;
+	font-size: 2.4rem;
 	line-height: 1;
 	font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: bold;
-    margin: 0 auto;
-    padding: .8rem 1.6rem;
-    font-weight: 700;
-    z-index: 1;
-    transition: all .6s cubic-bezier(.19,1,.22,1);
-    color: #fff;
-    text-decoration: none;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: .8rem 1.6rem;
+	font-weight: 700;
+	z-index: 1;
+	transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	color: #fff;
+	text-decoration: none;
 }
 
 .contact__link:hover {
-    background-image: linear-gradient(135deg,  white, white);
-    /* color: linear-gradient(135deg, #87a69f, white); */
-    color: #87a69f;
+	background-image: linear-gradient(135deg, white, white);
+	color: #87a69f;
 }
 
 @media screen and (max-width: 900px) {
-    .contact__link {
-    font-size: 2rem;
-}
+	.contact__link {
+		font-size: 2rem;
+	}
 }
 
 @media screen and (max-width: 740px) {
-    .contact__link {
-    font-size: 1.6rem;
-}
+	.contact__link {
+		font-size: 1.6rem;
+	}
 }
 
 @media screen and (max-width: 630px) {
-    .contact__link {
-    font-size: 1.3rem;
-}
+	.contact__link {
+		font-size: 1.3rem;
+	}
 }
 
 @media screen and (max-width: 560px) {
-    .contact__link {
-    font-size: 1.0rem;
-    padding: .5rem 1rem;
+	.contact__link {
+		font-size: 1.0rem;
+		padding: .5rem 1rem;
+	}
 }
-}
-
-/* @media screen and (max-width: 480px) {
-    .contact__link {
-    font-size: 0.4rem;
-}
-} */
