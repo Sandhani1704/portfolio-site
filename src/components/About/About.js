@@ -1,20 +1,17 @@
 import React from 'react';
 import './About.css';
 import ProfilePic from '../../images/avatar.jpg'
+import { TranslationContext } from '../contexts/translation/TranslationContext';
 
 function About() {
+    const translation = React.useContext(TranslationContext);
     return (
 
         <section id="about" className="about">
-            <h3 className="about__title">About me</h3>
+            <h3 className="about__title">{translation.about}</h3>
             <div className="about__conteiner">
                 <img className="about__image" src={ProfilePic} alt="Фотография профиля" />
-                <p className="about__paragraph">I am a novice front-end developer who is building
-                a new career from the thing I really enjoy. For a year, I have honed my skills
-                as a web-developer, learning how to build web applications while studying at Yandex.Practicum.
-                I've loved building things for web and been working with JavaScript (ES6+), HTML & CSS,
-                React, Node.js and MongoDB recently.
-                </p>
+                <p className="about__paragraph">{translation.aboutText}</p>
             </div>
         </section>
     )

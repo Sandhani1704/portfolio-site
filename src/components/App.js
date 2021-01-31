@@ -6,7 +6,10 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import ImagePopup from './ImagePopup/ImagePopup';
-import { initialCards as initialCards } from './utils/utils';
+import { initialCardsEn } from './utils/utils';
+import { initialCardsRu } from './utils/utils';
+import { TranslationContext, translations } from './contexts/translation/TranslationContext';
+import LangSelect from './LangSelect/LangSelect';
 
 
 
@@ -15,7 +18,8 @@ function App() {
     const [isImagePopupOpen, setIsImagePopupOpen] = React.useState(false);
     const [selectedCard, setSelectedCard] = React.useState({});
     const [cards, setCards] = React.useState([]);
-
+    const [lang, setLang] = React.useState('en')
+    
     function closeImagePopup() {
         setIsImagePopupOpen(false);
         setSelectedCard({});
@@ -27,8 +31,14 @@ function App() {
     }
 
     React.useEffect(() => {
-        setCards(initialCards);
-    }, []);
+        if (lang === 'en') {
+            
+            setCards(initialCardsEn);
+        }
+        else {
+            setCards(initialCardsRu)
+        }
+    }, [lang]);
 
     React.useEffect(() => {
         function handleEscClose(evt) {
@@ -54,24 +64,28 @@ function App() {
 
     return (
         <>
-            <Header />
+            <TranslationContext.Provider value={translations[lang]}>
+                <Header onLangSelect={setLang}/>
 
-            <Author />
+                <Author />
 
-            <About />
+                <About />
 
-            <Projects onCardClick={handleCardClick} cards={cards} />
+                <Projects onCardClick={handleCardClick} cards={cards} />
 
-            <Contact />
+                <Contact />
 
-            <Footer />
+                <Footer />
 
-            <ImagePopup
-                card={selectedCard}
-                isOpen={isImagePopupOpen}
-                onClose={closeImagePopup}
-            />
+                <ImagePopup
+                    card={selectedCard}
+                    isOpen={isImagePopupOpen}
+                    onClose={closeImagePopup}
+                />
 
+                {/* <LangSelect onLangSelect={setLang} /> */}
+                {/* <LangSelect onLangSelect={lang} /> */}
+            </TranslationContext.Provider>
 
         </>
     )

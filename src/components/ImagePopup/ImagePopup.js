@@ -1,5 +1,4 @@
 import React from 'react';
-// import closeIcon from '../../images/Close_Icon.svg'
 
 import './ImagePopup.css';
 
@@ -7,8 +6,7 @@ import './ImagePopup.css';
 function ImagePopup({ isOpen, onClose, card }) {
 
     return (
-        // <img className="popup-image__close-icon" src={closeIcon} alt="закрыть" />
-
+        
         <section className={`popup-image ${isOpen && 'popup-image_opened'}`}>
             <div className="popup-image__overlay"></div>
             <div className="popup-image__cover">
@@ -22,7 +20,7 @@ function ImagePopup({ isOpen, onClose, card }) {
                         <p className="popup-image__stack">Stack: {card.stack}</p>
                         <div className="popup-image__link-conteiner">
                             <a href={card.githubLink} target="_blank" rel="noopener noreferrer" className="popup-image__link">Github</a>
-                            <a target="_blank" className="popup-image__link" href={card.link}>
+                            <a target="_blank" rel="noopener noreferrer" className="popup-image__link" href={card.link}>
                                 See Live
                             </a>
                         </div>

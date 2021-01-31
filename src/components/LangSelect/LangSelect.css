@@ -1,0 +1,30 @@
+/* .LangSelect {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+  } */
+
+  #LangSelect {
+    margin-left: auto;
+    /* padding: 0.5rem; */
+    /* border-radius: 5px; */
+    border: 2px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+  }
+
+  @media screen and (max-width: 500px) {
+    #LangSelect {
+      font-size: 20px;
+    }
+  }
+
+  .en-icon {
+    width: 20px;
+    height: 20px;
+  }

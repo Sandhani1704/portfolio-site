@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import '../Navbar/Navbar.css'
 import github from '../../images/github_logo_icon.png'
 import whatsapp from '../../images/whatsapp_icon_32.png'
 import facebook from '../../images/facebook_icon_32.png'
