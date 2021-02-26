@@ -32,12 +32,12 @@ export const initialCardsEn = [
         link: 'https://sandhani1704.github.io/mesto/index.html'
     },
     {
-        name: 'Mesto-api-full',
+        name: 'Mesto-react',
         image: MestoReactImg,
         description: 'Project includes the frontend and backend parts of the application with the following capabilities: authorization and registration of users, operations with cards and users.',
         stack: 'HTML, CSS, JS, React, Node.js, Express.js, MongoDB, mongoose',
-        githubLink: 'https://galkina.students.nomoreparties.space/#/signin',
-        link: 'https://github.com/Sandhani1704/react-mesto-api-full'
+        githubLink: 'https://github.com/Sandhani1704/react-mesto-api-full',
+        link: 'https://galkina.students.nomoreparties.space/#/signin'
     },
     {
         name: 'News Explorer',
@@ -45,7 +45,7 @@ export const initialCardsEn = [
         description: 'Service for searching news on demand with registration and authorization of users. The user can save the articles he likes to "Favorites".',
         stack: 'HTML, CSS, JS, React, API, Express.js, MongoDB',
         githubLink: 'https://github.com/Sandhani1704/news-explorer-frontend',
-        link: 'https://news-explorer.students.nomoreparties.space/#/'
+        link: 'https://sandhani1704.github.io/news-explorer-frontend/'
     },
     {
         name: 'Weather-app',
@@ -87,8 +87,8 @@ export const initialCardsRu = [
         image: MestoReactImg,
         description: 'Проект включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями',
         stack: 'HTML, CSS, JS, React, Node.js, Express.js, MongoDB, mongoose',
-        githubLink: 'https://galkina.students.nomoreparties.space/#/signin',
-        link: 'https://github.com/Sandhani1704/react-mesto-api-full'
+        githubLink: 'https://github.com/Sandhani1704/react-mesto-api-full',
+        link: 'https://galkina.students.nomoreparties.space/#/signin'
     },
     {
         name: 'Поиск новостей',
@@ -96,7 +96,7 @@ export const initialCardsRu = [
         description: 'Сервис по поиску новостей по запросу с регистрацией и авторизацией пользователей. Пользователь может сохранить понравившиеся статьи в "Избранное".',
         stack: 'HTML, CSS, JS, React, API, Express.js, MongoDB',
         githubLink: 'https://github.com/Sandhani1704/news-explorer-frontend',
-        link: 'https://news-explorer.students.nomoreparties.space/#/'
+        link: 'https://sandhani1704.github.io/news-explorer-frontend/'
     },
     {
         name: 'Прогноз погоды',
